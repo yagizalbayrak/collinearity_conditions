@@ -31,7 +31,7 @@ y = -f \frac{r_{21}(X - X_0) + r_{22}(Y - Y_0) + r_{23}(Z - Z_0)}{r_{31}(X - X_0
 
 Where:
 ```math
-(X, Y, Z) = Unknown object-space coordinates
+(X, Y, Z) = Unknown object space coordinates
 ```
 ```math
 (X_0, Y_0, Z_0) = Camera position (Exterior Orientation)
