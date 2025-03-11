@@ -23,13 +23,13 @@ Collinearity conditions define the mathematical relationship between an object's
 Each image point must satisfy the collinearity condition:
 ```math
 x = -f \frac{r_{11}(X - X_0) + r_{12}(Y - Y_0) + r_{13}(Z - Z_0)}{r_{31}(X - X_0) + r_{32}(Y - Y_0) + r_{33}(Z - Z_0)}
-
-Where:
--  X, Y, Z = Unknown **object-space coordinates**
--  X_0, Y_0, Z_0 = Camera position (Exterior Orientation)
--  R = [r_{ij}]  = **3×3 Rotation Matrix**
--  f  = Camera **focal length**
 ```
+Where:
+- \( (X, Y, Z) \) = Unknown **object-space coordinates**
+- \( (X_0, Y_0, Z_0) \) = Camera position (Exterior Orientation)
+- \( R = [r_{ij}] \) = **3×3 Rotation Matrix**
+- \( f \) = Camera **focal length**
+
 
 ### 4️⃣ Space Intersection Computation
 - Given **two images** with known orientation parameters, we solve the **collinearity equations simultaneously**.
